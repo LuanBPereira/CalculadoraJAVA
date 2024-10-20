@@ -30,7 +30,7 @@ public class Main {
                         3 - Multiplicação
                         4 - Divisão
                         5 - Histórico de operações
-                        6 - Exibir operações do arquivo
+                        6 - Exibir operações em arquivo
                         7 - Sair
                         """
                 );
