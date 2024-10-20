@@ -36,6 +36,12 @@ public class OperacoesMatematicas {
 
     public void dividir() {
         double[] numeros = entradaValores();
+
+        if (numeros[1] == 0) {
+            System.out.println("Erro: Divisão por zero não é permitida.");
+            return;
+        }
+
         double resultado = numeros[0] / numeros[1];
 
         System.out.printf("O resultado da divisão é: %.2f\n", resultado);
